@@ -27,25 +27,36 @@
         <div class="bg-white p-4 mt-4">
             <h1 class="font-bold text-xl">Question-1:what are the different ways to select an element in the DOM?</h1>
             <hr>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere illum deleniti facilis cum ex repellendus explicabo quis reprehenderit magnam? Fugit, reprehenderit. Ipsa dolore necessitatibus consequatur minima soluta fugiat nam corporis!</p>
+            <p>To select an element in the DOM using JavaScript, you can use methods like getElementById (by ID), getElementsByClassName (by class name), getElementsByTagName (by tag name), querySelector (using a CSS selector to select a single element), and querySelectorAll (using a CSS selector to select multiple elements).</p>
         </div>
         <div class="bg-white p-4 mt-4">
             <h1 class="font-bold text-xl">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h1>
             <hr>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere illum deleniti facilis cum ex repellendus explicabo quis reprehenderit magnam? Fugit, reprehenderit. Ipsa dolore necessitatibus consequatur minima soluta fugiat nam corporis!</p>
+            <p>Use innerHTML when you want to work with the HTML structure inside an element.
+                Use innerText when you want the rendered, human-readable text content.
+                Use textContent when you want all the text content, regardless of rendering or HTML tags.</p>
         </div>
         <div class="bg-white p-4 mt-4">
-            <h1 class="font-bold text-xl"> Question-3: What is event delegation in the DOM?</p>
+            <h1 class="font-bold text-xl"> Question-3: What is event delegation in the DOM?</h1>
+            <hr>
+            <p>Event delegation is a powerful technique in JavaScript that allows you to handle events for multiple elements using a single event listener attached to a common ancestor element. Instead of adding individual event listeners to each element you want to monitor, you add one listener to a parent element and then use logic to determine which descendant element triggered the event.</p>
         </div>
         <div class="bg-white p-4 mt-4">
             <h1 class="font-bold text-xl">Question-4: What is event bubbling in the DOM?</h1>
             <hr>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere illum deleniti facilis cum ex repellendus explicabo quis reprehenderit magnam? Fugit, reprehenderit. Ipsa dolore necessitatibus consequatur minima soluta fugiat nam corporis!</p>
+            <p>Imagine a building with multiple floors. If a fire alarm goes off on the 1st floor, the sound doesn't just stay on that floor. It travels upwards, alerting people on the 2nd, 3rd, and all the way to the top floor. Event bubbling is similar: an event starts at a specific element and "travels up" to its parent elements in the DOM.</p>
         </div>
         <div class="bg-white p-4 mt-4">
             <h1 class="font-bold text-xl">Question-5: How do you create, add, and remove elements using JavaScript?</h1>
             <hr>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere illum deleniti facilis cum ex repellendus explicabo quis reprehenderit magnam? Fugit, reprehenderit. Ipsa dolore necessitatibus consequatur minima soluta fugiat nam corporis!</p>
+            <p>Creating elements:
+                document.createElement('tagName'): Creates a new element node.
+                Adding elements:
+                appendChild(): Adds an element as the last child of a parent.
+                insertBefore(): Adds an element before a specific sibling.
+                Removing elements:
+                removeChild(): Removes a child element from its parent.
+                remove(): Allows an element to remove itself.</p>
         </div>
     </div>
 </body>
