@@ -1,0 +1,6 @@
+.disables {
+    background-color: rgb(206, 206, 206);
+    color: #666;
+    cursor: not-allowed;
+    pointer-events: none;
+}
